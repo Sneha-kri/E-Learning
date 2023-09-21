@@ -1,0 +1,113 @@
+body{
+background-image:url("Screenshot 2023-08-30 141815.png");
+position: sticky;
+size: unset;
+text-align:center;
+padding:10px;
+margin:5px;
+background-attachment: fixed;
+}
+.logo{
+display:flex;
+justify-content:space-between;
+align-item:center;
+}
+.logo a:hover{
+border-bottom:black solid thin;
+}
+.cen{
+display:flex;
+margin: auto 10px;
+
+}
+h1{
+margin:10px;
+text-align:center;
+}
+.hima{
+background-image:url("Screenshot 2023-08-30 142226.png");
+height:60vh;
+width:98%;
+padding:10px;
+font-family:cursive , bold;
+font-size:30px;
+}
+.header{
+margin-top: 98px;
+position: sticky;
+}
+p{
+margin-top:49px;
+font-family: fangsong , bold;
+font-weight: 500;
+}
+.dropbtn {
+    background-color:white;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+   
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    
+
+}
+.dropdown-content {
+    position:absolute;
+    background-color: lightgrey;
+    display: none;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color:white;
+border-bottom:black solid thin;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}
+.footer{
+margin-top:10px;
+padding:5px;
+background-color:#0b0b23e8;
+border:gray solid thin;
+}
+.cardheader{
+color:white; 
+font-size: 2rem;
+
+}
+
+.card-body{
+color: white; 
+font-family: Ubuntu, sans-serif;
+}
+.end{
+color:white;
+text-align:center;
+font-family: Ubuntu, sans-serif;
+}
+.endtext{
+color: white; 
+font-family: Ubuntu, sans-serif;
+text-align:center;
+}
+.Home a{
+text-decoration:none;
+color:white;
+}
+.Home a:hover{
+color:blue;
+border-bottom:white solid thin;
+}
+
